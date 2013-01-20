@@ -1,4 +1,7 @@
-package ;
+package data;
+
+import sprites.Ship;
+import levels.GroundBlock;
 
 /**
  * ...

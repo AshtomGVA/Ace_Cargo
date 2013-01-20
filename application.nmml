@@ -3,7 +3,7 @@
 	<!-- NMML reference: https://gist.github.com/1763850 -->
 	
 	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
-	<meta title="Ace Cargo" package="AceCargo" version="0.0.1" company="Alexandre Thomas" />
+	<meta title="Ace Cargo" package="net.ashtom.acecargo" version="0.0.1" company="Alexandre Thomas" />
 	
 	<haxelib name="nme" />
 	<haxelib name="flixel" />

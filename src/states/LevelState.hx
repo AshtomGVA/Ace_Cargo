@@ -1,17 +1,25 @@
-package ;
+package states;
 import org.flixel.FlxG;
 import org.flixel.FlxState;
+import org.flixel.FlxTilemap;
+import data.Registry;
 
 /**
  * ...
  * @author Alexandre Thomas
  */
 
-class FirstLevel extends FlxState
+class LevelState extends FlxState
 {
-
-	public function new() 
+	// Some static constants for the size of the tilemap tiles
+	private var TILE_WIDTH:Int;
+	private var TILE_HEIGHT:Int;
+	
+	public function new()
 	{
+		TILE_WIDTH = 16;
+		TILE_HEIGHT = 16;
+		
 		super();
 	}
 	
@@ -28,6 +36,12 @@ class FirstLevel extends FlxState
 		
 		//adding objects to the stage
 		add(Registry.ship);
+		/*
+		for (i Int = 0; i < 15; i++)
+		{
+			
+		}
+		*/
 	}
 	
 }

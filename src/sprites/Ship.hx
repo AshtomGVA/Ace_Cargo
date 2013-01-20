@@ -1,4 +1,4 @@
-package ;
+package sprites;
 import org.flixel.FlxSprite;
 import org.flixel.FlxObject;
 import org.flixel.FlxG;
